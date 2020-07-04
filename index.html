@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Задачи по JS (неделя 3)</title>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+
+<body>
+  <div class="container-wrapper">
+    <h1>#1 Простой слайдер</h1>
+    <div class="slider-container">
+      <a href="#" class="arrow" id="arrow-left">←</a>
+      <div class="slider">
+        <ul id="slider-list" class="slider-list">
+          <li class="item">1</li>
+          <li class="item">2</li>
+          <li class="item">3</li>
+          <li class="item">4</li>
+          <li class="item">5</li>
+          <li class="item">6</li>
+          <li class="item">7</li>
+          <li class="item">8</li>
+          <li class="item">9</li>
+        </ul>
+      </div>
+      <a href="#" class="arrow" id="arrow-right">→</a>
+    </div>
+  </div>
+
+  <div class="container-wrapper">
+    <h1>#2 Модальное окно</h1>
+    <div class="container-modal-window" id="overlay-wrapper">
+      <div class="container">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Autem magnam ratione quasi alias adipisci molestias doloribus, 
+          provident eum natus rerum, numquam delectus cum at nobis consectetur 
+          deserunt perspiciatis eveniet temporibus.
+        </p>
+        <button id="open-overlay" class="btn">Открыть</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-wrapper">
+    <h1>#3 Создание и работа с DOM</h1>
+    <div class="block-coloring-container container-dom">
+      <div class="controls">
+        <input type="number" min="0" class="quantity-selector">
+        <input type="color" class="color-selector">
+      </div>
+      <div class="blocks"></div>
+    </div>
+  </div>
+  
+
+  <script src="./script-slider.js"></script>
+  <script src="./script-modal.js"></script>
+  <script src="./script-dom.js"></script>
+  <script src="./script-exercises.js"></script>
+  
+
+
+</body>
+
+</html>
